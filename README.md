@@ -9,3 +9,4 @@
 | 2 | CSS + JS Clock | https://mohit-javascript30.netlify.app/day02/ |
 | 3 | Update CSS Variables with JS | https://mohit-javascript30.netlify.app/day03/ |
 | 4 | Array Cardio 1 | https://mohit-javascript30.netlify.app/day04/ |
+| 5 | Flex Panels | https://mohit-javascript30.netlify.app/day05/ |
