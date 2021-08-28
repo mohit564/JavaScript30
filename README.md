@@ -12,3 +12,4 @@
 | 4   | Array Cardio 1               | https://mohit-javascript30.netlify.app/day04/ |
 | 5   | Flex Panels                  | https://mohit-javascript30.netlify.app/day05/ |
 | 6   | Type Ahead                   | https://mohit-javascript30.netlify.app/day06/ |
+| 7   | Array Cardio 2               | https://mohit-javascript30.netlify.app/day07/ |
