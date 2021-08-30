@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Day 9 - Dev Tools Tricks" />
+    <meta name="author" content="Mohit" />
+    <title>Console Tricks! - Mohit</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <p onClick="makeGreen()">×BREAK×DOWN×</p>
+
+    <script>
+      const dogs = [
+        { name: "Snickers", age: 2 },
+        { name: "hugo", age: 8 },
+      ];
+
+      function makeGreen() {
+        const p = document.querySelector("p");
+        p.style.color = "#BADA55";
+        p.style.fontSize = "50px";
+      }
+
+      // Regular
+      console.log("Hello");
+
+      // Interpolated
+      console.log("Hello, I'm %s", "Mohit");
+
+      // Styled
+      console.log(
+        "%c Javascript is COOL!",
+        "font-size: 20px; color: #f9e64f; background: #333;"
+      );
+
+      // warning!
+      console.warn("This is warning message");
+
+      // Error :|
+      console.error("This is error message");
+
+      // Info
+      console.info("This is info message");
+
+      // Testing
+      const p = document.querySelector("p");
+      // assert method will only print message when first arg returns false
+      console.assert(p.classList.contains("heading"), "This is wrong");
+
+      // clearing
+      // console.clear()
+
+      // Viewing DOM Elements
+      console.log(p);
+      console.dir(p);
+
+      // Grouping together
+
+      dogs.forEach((dog) => {
+        console.group(`${dog.name}`);
+        console.log(`This is ${dog.name}`);
+        console.log(`${dog.name} is ${dog.age} years old`);
+        console.groupEnd(`${dog.name}`);
+      });
+
+      // counting
+      console.count("Bob");
+      console.count("Alice");
+      console.count("Bob");
+      console.count("Bob");
+      console.count("Alice");
+      console.count("Alice");
+      console.count("Alice");
+      console.count("Bob");
+      console.count("Alice");
+      console.count("Alice");
+      console.count("Alice");
+      console.count("Bob");
+      console.count("Bob");
+
+      // timing
+      console.time("fetching data");
+      fetch("https://api.github.com/users/mohit564")
+        .then((res) => res.json())
+        .then((data) => {
+          console.timeEnd("fetching data");
+          console.log(data);
+        });
+    </script>
+  </body>
+</html>
