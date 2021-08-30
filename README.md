@@ -14,3 +14,4 @@
 | 6   | Type Ahead                   | https://mohit-javascript30.netlify.app/day06/ |
 | 7   | Array Cardio 2               | https://mohit-javascript30.netlify.app/day07/ |
 | 8   | HTML5 Canvas                 | https://mohit-javascript30.netlify.app/day08/ |
+| 9   | Dev Tools Tricks             | https://mohit-javascript30.netlify.app/day09/ |
