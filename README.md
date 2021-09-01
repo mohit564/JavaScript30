@@ -16,3 +16,4 @@
 | 8   | HTML5 Canvas                            | https://mohit-javascript30.netlify.app/day08/ |
 | 9   | Dev Tools Tricks                        | https://mohit-javascript30.netlify.app/day09/ |
 | 10  | Hold Shift to Check Multiple Checkboxes | https://mohit-javascript30.netlify.app/day10/ |
+| 11  | Custom HTML Video Player                | https://mohit-javascript30.netlify.app/day11/ |
