@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Day 11 - Custom HTML Video Player" />
+    <meta name="author" content="Mohit" />
+    <title>Key Detection - Mohit</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script
+      type="text/javascript"
+      src="https://www.cornify.com/js/cornify.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <script>
+      let pressed = [];
+      const secret = "mohit";
+
+      window.addEventListener("keyup", (event) => {
+        pressed.push(event.key);
+        pressed.splice(-secret.length - 1, pressed.length - secret.length);
+        if (pressed.join("").includes(secret)) {
+          console.log(
+            "%cYou cracked the Secret Code. CONGRATULATIONS!!!",
+            "font-size: 2rem; color: #f9e64f; background: #333;"
+          );
+          cornify_add();
+        }
+      });
+    </script>
+  </body>
+</html>
