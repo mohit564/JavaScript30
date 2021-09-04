@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Day 14 - JS Reference VS Copy" />
+    <meta name="author" content="Mohit" />
+    <title>JS Reference VS Copy - Mohit</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <script>
+      // start with strings, numbers and booleans
+      // let age = 21;
+      // let age2 = age;
+      // console.log(age, age2);
+      // age = 22;
+      // console.log(age, age2);
+
+      // let name = "Alice";
+      // let name2 = name;
+      // console.log(name, name2);
+      // name = "Bob";
+      // console.log(name, name2);
+
+      // Let's say we have an array
+      // const items = ["Apple", "Banana", "Orange", "Guava"];
+
+      // and we want to make a copy of it.
+      // const fruits = items;
+      // console.log(items, fruits);
+
+      // You might think we can just do something like this:
+
+      // however what happens when we update that array?
+      // items[3] = "Mango";
+
+      // now here is the problem!
+      // console.log(items, fruits);
+
+      // oh no - we have edited the original array too!
+
+      // Why? It's because that is an array reference, not an array copy. They both point to the same array!
+
+      // So, how do we fix this? We take a copy instead!
+
+      // one way
+      // const fruits2 = items.slice();
+      // console.log(items, fruits2);
+
+      // or create a new array and concat the old one in
+      // const fruits3 = [].concat(items);
+      // console.log(items, fruits3);
+
+      // or use the new ES6 Spread
+      // const fruits4 = [...items];
+      // fruits4[3] = "Kiwi";
+      // console.log(items, fruits4);
+
+      // const fruits5 = Array.from(items);
+      // console.log(items, fruits5);
+
+      // now when we update it, the original one isn't changed
+
+      // The same thing goes for objects, let's say we have a person object
+
+      // with Objects
+      // const person = {
+      //   name: "Mohit Dhule",
+      //   age: 22,
+      // };
+
+      // and think we make a copy:
+      // const captain = person;
+      // captain.number = 28;
+      // console.log(person, captain);
+
+      // how do we take a copy instead?
+      // const captain2 = Object.assign({}, person, { number: 21, age: 23 });
+      // console.log(person, captain2);
+
+      // We will hopefully soon see the object ...spread
+      // const captain3 = { ...person };
+
+      // Note :
+      // Object.assign() and spread operator does shallow copy. only one level copy
+
+      // const mohit = {
+      //   name: "Mohit Dhule",
+      //   age: 22,
+      //   social: {
+      //     twitter: "@mohitdhule",
+      //   },
+      // };
+
+      // Shallow copy
+      // const dev = Object.assign({}, mohit);
+      // console.log(mohit, dev);
+
+      // Deep copy
+      // This might affect the performance for large nested object
+      // const dev2 = JSON.parse(JSON.stringify(mohit));
+      // console.log(mohit, dev2);
+    </script>
+  </body>
+</html>
