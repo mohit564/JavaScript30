@@ -21,3 +21,4 @@
 | 13  | Slide In on scroll                      | https://mohit-javascript30.netlify.app/day13/ |
 | 14  | JS Reference VS Copy                    | https://mohit-javascript30.netlify.app/day14/ |
 | 15  | LocalStorage                            | https://mohit-javascript30.netlify.app/day15/ |
+| 16  | Mouse Shadow                            | https://mohit-javascript30.netlify.app/day16/ |
