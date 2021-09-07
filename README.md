@@ -22,3 +22,4 @@
 | 14  | JS Reference VS Copy                    | https://mohit-javascript30.netlify.app/day14/ |
 | 15  | LocalStorage                            | https://mohit-javascript30.netlify.app/day15/ |
 | 16  | Mouse Shadow                            | https://mohit-javascript30.netlify.app/day16/ |
+| 17  | Sort Without Articles                   | https://mohit-javascript30.netlify.app/day17/ |
