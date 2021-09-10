@@ -25,3 +25,4 @@
 | 17  | Sort Without Articles                   | https://mohit-javascript30.netlify.app/day17/ |
 | 18  | Tally String Times with Reduce          | https://mohit-javascript30.netlify.app/day18/ |
 | 19  | Take Selfies                            | https://mohit-javascript30.netlify.app/day19/ |
+| 20  | Speech Detection                        | https://mohit-javascript30.netlify.app/day20/ |
