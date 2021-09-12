@@ -27,3 +27,4 @@
 | 19  | Take Selfies                              | https://mohit-javascript30.netlify.app/day19/ |
 | 20  | Speech Detection                          | https://mohit-javascript30.netlify.app/day20/ |
 | 21  | Geolocation based Speedometer and Compass | https://mohit-javascript30.netlify.app/day21/ |
+| 22  | Follow Along Link Highlighter             | https://mohit-javascript30.netlify.app/day22/ |
