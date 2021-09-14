@@ -29,3 +29,4 @@
 | 21  | Geolocation based Speedometer and Compass | https://mohit-javascript30.netlify.app/day21/ |
 | 22  | Follow Along Link Highlighter             | https://mohit-javascript30.netlify.app/day22/ |
 | 23  | Speech Synthesis                          | https://mohit-javascript30.netlify.app/day23/ |
+| 24  | Sticky Nav                                | https://mohit-javascript30.netlify.app/day24/ |
