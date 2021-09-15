@@ -30,3 +30,4 @@
 | 22  | Follow Along Link Highlighter             | https://mohit-javascript30.netlify.app/day22/ |
 | 23  | Speech Synthesis                          | https://mohit-javascript30.netlify.app/day23/ |
 | 24  | Sticky Nav                                | https://mohit-javascript30.netlify.app/day24/ |
+| 25  | Understanding JavaScript's Capture        | https://mohit-javascript30.netlify.app/day25/ |
