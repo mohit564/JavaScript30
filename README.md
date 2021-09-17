@@ -32,3 +32,4 @@
 | 24  | Sticky Nav                                | https://mohit-javascript30.netlify.app/day24/ |
 | 25  | Understanding JavaScript's Capture        | https://mohit-javascript30.netlify.app/day25/ |
 | 26  | Stripe Follow Along Dropdown              | https://mohit-javascript30.netlify.app/day26/ |
+| 27  | Click and Drag to Scroll                  | https://mohit-javascript30.netlify.app/day27/ |
