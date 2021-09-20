@@ -35,3 +35,4 @@
 | 27  | Click and Drag to Scroll                  | https://mohit-javascript30.netlify.app/day27/ |
 | 28  | Video Speed Controller                    | https://mohit-javascript30.netlify.app/day28/ |
 | 29  | Countdown Timer                           | https://mohit-javascript30.netlify.app/day29/ |
+| 30  | Whack A Mole Game                         | https://mohit-javascript30.netlify.app/day30/ |
